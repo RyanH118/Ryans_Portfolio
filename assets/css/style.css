@@ -36,3 +36,9 @@ h1 {
     color: var(--gray);
     background-color: var(--CadetBlue3);
 }
+
+.first_code {
+    border: solid;
+    height: 200px;
+    background-image: url("../images/First_Code.png");
+}
