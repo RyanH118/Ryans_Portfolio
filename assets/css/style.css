@@ -5,6 +5,10 @@
     --CadetBlue4: #53868b;
 }
 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header {
     background-color: var(--gray);
 }
@@ -41,4 +45,19 @@ h1 {
     border: solid;
     height: 200px;
     background-image: url("../images/First_Code.png");
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    border: 10px solid var(--CadetBlue3);
+    margin: 5px;
+    padding: 5px;
+    width: 19rem;
+    position: relative;
+    left: 65rem;
+    top: 6rem;
+    background-color: var(--CadetBlue3);
+    color: var(--gray);
 }
