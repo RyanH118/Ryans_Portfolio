@@ -1,0 +1,6 @@
+/* Allows for easy changes in later code so I dont have to remember hex codes. */
+:root {
+    --gray: #444444;
+    --CadetBlue3: #8ee5ee;
+    --CadetBlue4: #53868b;
+}
