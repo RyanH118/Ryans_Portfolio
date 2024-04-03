@@ -5,6 +5,7 @@
     --CadetBlue4: #53868b;
 }
 
+/* All text has this font. */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -157,6 +158,7 @@ a {
         left: 517px;
     }
 
+    /* enjoyed this part */
   .main-card:hover, .card:hover {
     opacity: 1;
     transition: .3s;
@@ -222,7 +224,8 @@ footer a {
         left: 6rem;
         text-decoration: underline;
 }
-
+/* I know this works to the best of my abilites but there has to be an easier way for all the media queries. */
+/* Will do this again when I have watched more videos. */
 @media screen and (max-width: 992px){
     h2 {
         position: relative;
