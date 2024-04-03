@@ -162,11 +162,38 @@ a {
     transition: .3s;
   }
 
-  .cr {
+  .cr, .c1, .c2, .c3, .c4 {
     border: 1px solid var(--CadetBlue3);
     background-color: var(--CadetBlue3);
     position: relative;
+  }
+
+  .cr {
     padding: 2rem;
-    top: -8rem;
+    top: -6rem;
+    left: 60px;
+  }
+
+  .c1 {
+    padding: 1rem;
+    bottom: 14rem;
     left: 15rem;
+  }
+
+  .c2 {
+    padding: 1rem;
+    bottom: 90px;
+    left: 15rem;
+  }
+
+  .c3 {
+    padding: 1rem;
+    bottom: 264px;
+    left: 717px;
+  }
+
+  .c4 {
+    padding: 1rem;
+    bottom: 130px;
+    left: 717px;
   }
