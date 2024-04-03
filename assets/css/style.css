@@ -99,7 +99,7 @@ h4 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--CadetBlue4);
     font-size: 20px;
 }
@@ -166,6 +166,7 @@ a {
     border: 1px solid var(--CadetBlue3);
     background-color: var(--CadetBlue3);
     position: relative;
+    text-decoration: none;
   }
 
   .cr {
@@ -213,5 +214,11 @@ a {
 }
 
 footer a {
-    float: right;
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: var(--CadetBlue4);
+        position: relative;
+        bottom: 1rem;
+        left: 6rem;
+        text-decoration: underline;
 }
