@@ -113,8 +113,12 @@ a {
     margin-top: 1rem;
     height: 30rem;
     width: 58rem;
-    place-content: center;
-    text-align: center;
+    text-align: left;
     position: relative;
-    isolation: isolate;
+    opacity: .5;
+  }
+
+  .main-card:hover {
+    opacity: 1;
+    transition: .3s;
   }
