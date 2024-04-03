@@ -222,3 +222,156 @@ footer a {
         left: 6rem;
         text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    header, nav {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+
+    }
+
+    h1 {
+        position: unset;
+        display: flex;
+        justify-content: center;
+        width: unset;
+    }
+
+    h2 {
+        position: unset;
+        display: flex;
+        width: unset;
+    }
+
+    h3 {
+        font-size: 2rem;
+        border-right: 0px;
+        border-bottom: 5px solid var(--CadetBlue4);
+        color: var(--CadetBlue4);
+        text-align: end;
+        margin: 2rem;
+        padding: 1rem;
+        height: 3rem;
+    }
+    
+    p {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 32px;
+        top: 2.5rem;
+        position: unset;
+        width: 87rem;
+        color: var(--CadetBlue4);
+    }
+
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    h4 {
+        font-size: 2rem;
+        border-bottom: 5px solid var(--CadetBlue4);
+        border-right: 0px;
+        color: var(--CadetBlue4);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 1rem;
+        padding: 5px;
+        margin-bottom: 1rem;
+        position: relative;
+        left: 10rem;
+        width: 8rem;
+    }
+
+    .main-card {
+        border: 2px solid var(--CadetBlue4);
+        margin-left: 0rem;
+        margin-top: 1rem;
+        height: 30rem;
+        width: 29rem;
+      }
+
+      .cards {
+        padding: unset;
+      }
+
+      .one, .two, .three, .four {
+        margin-left: 5px;
+        margin-bottom: 5px;
+      }
+
+      .two {
+        float: unset;
+        position: unset;
+      }
+
+      .three {
+        position: unset;
+      }
+
+      .four {
+        float: unset;
+        position: unset;
+      }
+
+      .cr {
+        position: relative;
+        left: 0px;
+      }
+
+      
+      .c1 {
+          position: relative;
+          left: 5px;
+          bottom: 469px;
+        }
+        
+        .c2 {
+            position: relative;
+            left: -130px;
+            bottom: 330px;
+        }
+        
+        .c3 {
+            position: relative;
+            left: -265px;
+            bottom: 192px;
+        }
+        
+        .c4 {
+          position: relative;
+          left: 5px;
+          bottom: 69px;
+        }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h5 {
+        font-size: 2rem;
+        border-bottom: 5px solid var(--CadetBlue4);
+        border-right: 0px;
+        color: var(--CadetBlue4);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 1rem;
+        padding: 5px;
+        margin-bottom: 1rem;
+        position: unset;
+        width: 10rem;
+    }
+
+    a {
+        font-size: unset;
+    }
+
+  }
