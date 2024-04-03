@@ -95,7 +95,7 @@ h4 {
     float: left;
     margin-top: 3rem;
     padding: 1rem;
-    height: 15rem;
+    height: 46rem;
 }
 
 a {
@@ -109,7 +109,7 @@ a {
     background-size: cover;
     background-position: center;
     display: grid;
-    border: 1px solid;
+    border: 2px solid var(--CadetBlue4);
     margin-left: 15rem;
     margin-top: 1rem;
     height: 30rem;
@@ -118,7 +118,22 @@ a {
     opacity: .5;
   }
 
-  .main-card:hover {
+  .card {
+    display: flex;
+    padding: 1.2rem 1rem;
+    background-image: url(../images/Coming_Soon.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    border: 1px solid;
+    height: 5rem;
+    width: 428px;
+    margin: 1rem;
+    opacity: 0.2;
+
+}
+
+  .main-card:hover, .card:hover {
     opacity: 1;
     transition: .3s;
   }
