@@ -63,8 +63,6 @@ h2 {
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
     font-size: 4rem;
     border-right: 5px solid var(--CadetBlue4);
     float: left;
@@ -79,10 +77,44 @@ p {
     font-size: 17px;
     line-height: 20px;
     margin-bottom: 32px;
-    border: 0px solid;
     top: 2.5rem;
     position: relative;
-    text-align: left;
     width: 87rem;
     color: var(--CadetBlue4);
 }
+
+.cards {
+    padding: 3rem 5rem 1rem 15.5rem;
+    margin: 1rem;
+}
+
+h4 {
+    font-size: 4rem;
+    color: var(--CadetBlue4);
+    border-right: 5px solid var(--CadetBlue4);
+    float: left;
+    margin-top: 3rem;
+    padding: 1rem;
+    height: 15rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--CadetBlue4);
+}
+
+.main-card {
+    background-image: url(../images/Code-Refactor.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    border: 1px solid;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    height: 30rem;
+    width: 58rem;
+    place-content: center;
+    text-align: center;
+    position: relative;
+    isolation: isolate;
+  }
