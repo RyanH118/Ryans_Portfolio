@@ -101,6 +101,7 @@ h4 {
 a {
     text-decoration: none;
     color: var(--CadetBlue4);
+    font-size: 20px;
 }
 
 .main-card {
@@ -113,7 +114,6 @@ a {
     margin-top: 1rem;
     height: 30rem;
     width: 58rem;
-    text-align: left;
     position: relative;
     opacity: .5;
   }
@@ -121,4 +121,13 @@ a {
   .main-card:hover {
     opacity: 1;
     transition: .3s;
+  }
+
+  .cr {
+    border: 1px solid var(--CadetBlue3);
+    background-color: var(--CadetBlue3);
+    position: relative;
+    padding: 2rem;
+    top: -8rem;
+    left: 15rem;
   }
