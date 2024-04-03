@@ -223,6 +223,147 @@ footer a {
         text-decoration: underline;
 }
 
+@media screen and (max-width: 992px){
+    h2 {
+        position: relative;
+        left: 36rem;
+        bottom: 10px;
+    }
+
+    h3 {
+        border-right: 0px;
+        border-bottom: 5px solid var(--CadetBlue4);
+        color: var(--CadetBlue4);
+        text-align: end;
+        margin: 2rem;
+        padding: 2.5rem;
+        height: 3rem;
+        width: 12rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    p {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 32px;
+        top: 2.5rem;
+        position: unset;
+        width: 87rem;
+        color: var(--CadetBlue4);
+    }
+
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    h4 {
+        border-bottom: 5px solid var(--CadetBlue4);
+        border-right: 0px;
+        color: var(--CadetBlue4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: 20px;
+        position: relative;
+        left: 24rem;
+    }
+
+    .main-card {
+        border: 2px solid var(--CadetBlue4);
+        margin-left: 0rem;
+        margin-top: 1rem;
+        height: 30rem;
+      }
+
+      .cards {
+        padding: unset;
+      }
+
+      .card {
+        position: relative;
+        left: 138px;
+        bottom: unset;
+      }
+
+      .one, .two, .three, .four {
+        margin-left: 5px;
+        margin-bottom: 5px;
+      }
+
+      .two, .four {
+        float: unset;
+      }
+
+      .cr {
+        left: unset;
+      }
+
+      
+      .c1 {
+          position: relative;
+          left: 144px;
+          bottom: 469px;
+        }
+        
+        .c2 {
+            position: relative;
+            left: 8px;
+            bottom: 330px;
+        }
+        
+        .c3 {
+            position: relative;
+            left: -127px;
+            bottom: 192px;
+        }
+        
+        .c4 {
+          position: relative;
+          left: -262px;
+          bottom: 54px;
+        }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    h5 {
+        border-bottom: 5px solid var(--CadetBlue4);
+        border-right: 0px;
+        color: var(--CadetBlue4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 1rem;
+        position: relative;
+        left: 256px;
+        bottom: unset;
+        width: 16rem;
+    }
+
+    footer a {
+        font-size: 1.5rem;
+        padding: 1rem;
+        color: var(--CadetBlue4);
+        position: relative;
+        bottom: unset;
+        left: 6rem;
+    }
+
+    a {
+        font-size: unset;
+    }
+}
+
 @media screen and (max-width: 768px) {
     header, nav {
         display: flex;
@@ -240,7 +381,6 @@ footer a {
 
     h2 {
         position: unset;
-        display: flex;
         width: unset;
     }
 
@@ -392,7 +532,6 @@ footer a {
 
     h2 {
         position: unset;
-        display: flex;
         width: unset;
     }
 
