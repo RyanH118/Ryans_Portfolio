@@ -125,13 +125,37 @@ a {
     background-size: cover;
     background-position: center;
     align-items: center;
-    border: 1px solid;
+    border: 2px solid var(--CadetBlue4);
     height: 5rem;
-    width: 428px;
+    width: 420px;
     margin: 1rem;
     opacity: 0.2;
-
 }
+
+    .one {
+        margin-left: 15rem;
+        margin-bottom: 2rem;
+    }
+
+    .two {
+        margin-bottom: 2rem;
+        float: right;
+        position: relative;
+        bottom: 170px;
+        left: 29px;
+    }
+
+    .three {
+        position: relative;
+        left: 60px;
+    }
+
+    .four {
+        float: right;
+        position: relative;
+        bottom: 154px;
+        left: 517px;
+    }
 
   .main-card:hover, .card:hover {
     opacity: 1;
